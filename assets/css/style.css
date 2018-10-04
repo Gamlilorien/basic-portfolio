@@ -54,12 +54,16 @@ table {
 /* default attributes for all elements */
 body {
     font-family: sans-serif;
+    background-image: url("assets/images/jcmh.jpg");
+    background-repeat: repeat-y;
+    background-repeat: repeat;
     background-color: seashell;
 }
 
 nav {
     background-color: white;
-    border: 2px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
     margin-top: 22px;
     line-height: 36px;
 }
@@ -93,7 +97,7 @@ h2 {
 p {
     font-size: 16px;
     line-height: 24px;
-    padding-top: 12px;
+    padding-top: 22px;
 }
 
 .title {
@@ -145,6 +149,10 @@ section {
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     color: #D6D6D6;
     font-size: 10px;
@@ -152,4 +160,13 @@ footer {
     border-top: 6px solid turquoise;
     margin-top: 22px;
     line-height: 36px;
+}
+
+.squarePic {
+    float: left;
+    padding-top: 22px;
+    width: 150px;
+    height: *px;
+    margin-right: 12px;
+    overflow: auto;
 }
