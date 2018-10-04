@@ -171,3 +171,16 @@ footer {
     margin-right: 12px;
     overflow: auto;
 }
+
+/* CONTACT FORM */
+label {
+    margin-top: 22px;
+}
+
+input {
+    width: 900px;
+    margin: auto;
+    /* TRBL */
+    margin: 5px 0px 22px 0px;
+    line-height: 18px;
+}
