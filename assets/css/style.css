@@ -53,7 +53,7 @@ table {
 
 /* default attributes for all elements */
 body {
-    font-family: sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../images/paper-background.jpg");
     background-repeat: repeat-y;
     background-color: seashell;
@@ -105,7 +105,7 @@ li a:hover {
 /* HEADINGS */
 /* Use Times Font for all headings */
 h1, h2, h3 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 h1 {
@@ -204,3 +204,45 @@ input.button {
     font-size: 16px;
     padding: 10px 0px 10px 0px;
 }
+
+/* Grid layout for portfolio */
+
+.grid-container {
+    width: 780px;
+    height: 600px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    /* TRBL */
+    margin: 22px 0px 0px 60px;
+  }
+  .grid-item {
+    width: 220px;
+    height: 165px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0.25px solid rgba(0, 0, 0, 0.8);
+    margin: 12px 22px 12px 22px;
+    /* padding: 20px; */
+    font-size: 30px;
+    text-align: center;
+  }
+
+.grid-image {
+    width: 220px;
+    height: 165px;
+}
+
+  .grid-label {
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: rgb(151, 151, 151);
+    /* text-shadow: 2px 2px #a6a6a6; */
+    line-height: 0.3;
+    position: relative;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 20px;
+    background-color: rgba(117, 253, 255, 0.95);
+    }
