@@ -71,7 +71,7 @@ nav {
 
 /* My name where the logo would be */
 #logo {
-    color: white;
+    color: #ffffff;
     background-color: #4aaaa5;
     float: left;
     padding: 15px;
@@ -101,6 +101,12 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+li .active {
+    color: #4aaaa5;
+    background-color: #e0e0e0;
 }
 
 /* HEADINGS */
